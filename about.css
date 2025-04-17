@@ -1,0 +1,145 @@
+*{
+    background-color: #111;
+    padding: 0;
+    margin: 0;
+    }    
+     .port{
+        color:#ec5b5b;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-family: cursive;
+        margin-top: 10px;
+        margin-left: 20px;
+        /* margin-top: 200px; */
+     } 
+     .nav{
+        
+    
+      margin-left: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        gap: 30px;
+        margin-top: -40px;
+    }
+    
+    .nav .home{
+        font-family: cursive;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+    }
+    .nav a:hover{
+        color: #ec5b5b;
+        transition: ease-in-out 0.5s;
+    } 
+     .about{
+        border-bottom: solid 2px #ec5b5b;
+        font-family: cursive;
+        text-decoration: none;
+        color: #ec5b5b;
+        text-transform: capitalize;
+    }
+    #img1{
+        width: 370px;
+    height: 460px;
+    object-fit: cover;
+    
+    margin-left: -140px;
+    }
+    .p1{
+        color: #fff;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-left: 600px;
+        margin-top: 50px;
+        border-bottom: solid 2px #ec5b5b;
+        width: 78px;
+    }
+    .p2{
+        margin-top: 30px;
+        color: #fff;
+        font-family: cursive;
+        width: 500px;
+        height: 600px;
+    }
+    .aboutme{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .copy{
+        color: #fff;
+        font-family: cursive;
+        text-align: center;
+        font-weight: bolder;
+        font-size:medium;
+        
+    }
+    .fa-brands.fa-facebook,
+.fa-brands.fa-github,
+.fa-brands.fa-instagram,
+.fa-brands.fa-youtube {
+    color: #ec5b5b;
+    font-size: 24px;
+    margin: 10px;
+}
+@media (max-width: 900px) {
+    .port {
+      font-size: 28px;
+      margin-left: 10px;
+    }
+  
+    .nav {
+      margin-left: 0;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+      gap: 20px;
+    }
+  
+    #img1 {
+      width: 90%;
+      height: auto;
+      margin: 20px auto;
+      display: block;
+    }
+  
+    .aboutme {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .p1 {
+      margin: 20px auto 10px;
+      text-align: center;
+      border: none;
+      font-size: large;
+    }
+  
+    .p2 {
+      width: 90%;
+      height: auto;
+      margin: 10px auto;
+      text-align: center;
+      font-size: medium;
+    }
+  
+    .copy,
+    .copy1 {
+      text-align: center;
+      padding: 10px;
+      font-size: medium;
+    }
+  
+    /* Icons styling in smaller view */
+    .fa-brands {
+      font-size: 28px;
+      margin: 10px;
+      display: inline-block;
+    }
+  }
+  
